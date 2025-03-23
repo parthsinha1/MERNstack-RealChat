@@ -6,6 +6,18 @@
 
 The MERN Chat App is a full‑stack, real‑time chat application built using the MERN stack (MongoDB, Express, React.js, and Node.js). The application enables users to register and authenticate, update their profile with Cloudinary‑stored profile pictures, and communicate instantly via real‑time messaging using Socket.io. The project demonstrates RESTful APIs, secure JWT‑based authentication, and real‑time communication using a full‑stack development approach.
 _____________________________________________
+
+### Live Demo
+You can view the live version of the MERN Chat App deployed on Render here:
+https://mernstack-realchatbot.onrender.com/
+
+Simply click the link above to interact with the app in a live environment.
+_____________________________________________
+
+### Deployment
+For production deployment, the project is hosted on Render. The frontend is built as static files and served along with the Express backend. Ensure you set the necessary environment variables for production, such as your MongoDB connection string, Cloudinary configuration, and JWT secret. This setup allows for both your RESTful API and real‑time Socket.io functionalities to work seamlessly on a single server.
+_____________________________________________
+
 **Key Features**\
 ─────────────────────────────────────────────
 - Real‑time messaging using Socket.io
