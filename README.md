@@ -74,39 +74,49 @@ Prerequisites:
 
 Steps to Run Locally:
 
-1.  Clone the repository:\
-    git clone [repository URL]\
+1.  Clone the repository:
+    git clone [repository URL]
     cd [repository-folder]
 
-2.  Backend Setup:\
-    a. Navigate to the backend folder:\
-    cd backend\
-    b. Install dependencies:\
-    npm install\
-    c. Create a .env file in the backend folder with required variables:\
+2.  Backend Setup:
+    
+    Navigate to the backend folder:
+    cd backend
+    
+    Install dependencies:
+    npm install
+    
+    Create a .env file in the backend folder with required variables:
+    
     PORT=5001\
     MONGO_URI=your-mongodb-connection-string\
     JWT_SECRET=your-secret-key\
     CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name\
     CLOUDINARY_API_KEY=your-cloudinary-api-key\
     CLOUDINARY_API_SECRET=your-cloudinary-api-secret\
-    NODE_ENV=development\
-    d. Run the backend server (development mode):\
+    NODE_ENV=development
+    
+    
+    Run the backend server (development mode):
     npm run dev\
     (The server will start on the specified PORT and log connection info.)
 
-3.  Frontend Setup:\
-    a. Navigate to the frontend folder:\
-    cd ../frontend\
-    b. Install dependencies:\
-    npm install\
-    c. Start the React development server:\
+4.  Frontend Setup:
+    
+    Navigate to the frontend folder:
+    cd ../frontend
+    
+    
+    Install dependencies:
+    npm install
+    
+    
+    Start the React development server:\
     npm start\
     (The application will open in your web browser at [http://localhost:5173](http://localhost:5173/).)
 
 **Usage**\
 ─────────────────────────────────────────────
-- Open the frontend URL ([http://localhost:5173](http://localhost:5173/)) in your browser.
 - Register a new account or log in with an existing account.
 - Update your profile and upload a profile picture. The image is stored in Cloudinary, and its URL is saved in your MongoDB profile collection.
 - Engage in real‑time messaging; once you're logged in, Socket.io connects your client to the server and maintains an active channel for sending and receiving messages.
@@ -164,9 +174,8 @@ Socket.io Integration
 **Future Enhancements**\
 ─────────────────────────────────────────────
 - Implement group or community chat functionalities
-- Enhance profile management with additional image processing or filtering features
+- Enhance profile management with additional image processing (larger file size)
 - Add push notifications for new messages and other events
-- Extend test coverage with unit and integration tests
 - Optimize performance and improve mobile responsiveness
 
 ### Conclusion
