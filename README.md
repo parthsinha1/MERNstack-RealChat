@@ -182,12 +182,6 @@ Socket.io Integration
 - For production deployment, the frontend is built into static files served by Express (using the production environment configuration).
 - Deployment can be performed on platforms such as Heroku, DigitalOcean, or any cloud provider by setting appropriate environment variables and serving both the API and the static React build.
 
-**TODO**\
-─────────────────────────────────────────────
-- Implement group chat secret rooms functionality
-- Allow uploads of larger file size for profile pics
-- Implement custom themes feature
-- Improve mobile responsiveness
 
 
 
