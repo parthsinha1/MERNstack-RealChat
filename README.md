@@ -6,6 +6,16 @@
 ### Overview
 
 The MERN Chat App is a full‑stack, real‑time chat application built using the MERN stack (MongoDB, Express, React.js, and Node.js). The application enables users to register and authenticate, update their profile with Cloudinary‑stored profile pictures, and communicate instantly via real‑time messaging using Socket.io. The project uses RESTful APIs, secure JWT‑based authentication, and real‑time communication using a full‑stack development approach.
+\
+\
+ι══════ι══════════════ι════════ιι══════ι══════════════ι════════ιι══════ι══════════════ι════════ι
+\
+ι══════ι══════════════ι════════ιι══════ι══════════════ι════════ιι══════ι══════════════ι════════ι
+### TODO
+- Implement group chat secret rooms functionality
+- Allow uploads of larger file size for profile pics
+- Implement custom themes feature
+- Improve mobile responsiveness
 _____________________________________________
 
 ### Live Demo
