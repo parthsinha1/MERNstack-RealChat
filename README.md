@@ -2,9 +2,10 @@
 # MERN Chat App
 
 
+
 ### Overview
 
-The MERN Chat App is a full‑stack, real‑time chat application built using the MERN stack (MongoDB, Express, React.js, and Node.js). The application enables users to register and authenticate, update their profile with Cloudinary‑stored profile pictures, and communicate instantly via real‑time messaging using Socket.io. The project demonstrates RESTful APIs, secure JWT‑based authentication, and real‑time communication using a full‑stack development approach.
+The MERN Chat App is a full‑stack, real‑time chat application built using the MERN stack (MongoDB, Express, React.js, and Node.js). The application enables users to register and authenticate, update their profile with Cloudinary‑stored profile pictures, and communicate instantly via real‑time messaging using Socket.io. The project uses RESTful APIs, secure JWT‑based authentication, and real‑time communication using a full‑stack development approach.
 _____________________________________________
 
 ### Live Demo
@@ -171,13 +172,13 @@ Socket.io Integration
 - For production deployment, the frontend is built into static files served by Express (using the production environment configuration).
 - Deployment can be performed on platforms such as Heroku, DigitalOcean, or any cloud provider by setting appropriate environment variables and serving both the API and the static React build.
 
-**Future Enhancements**\
+**TODO**\
 ─────────────────────────────────────────────
-- Implement group or community chat functionalities
-- Enhance profile management with additional image processing (larger file size)
-- Add push notifications for new messages and other events
-- Optimize performance and improve mobile responsiveness
+- Implement group chat secret rooms functionality
+- Allow uploads of larger file size for profile pics
+- Implement custom themes feature
+- Improve mobile responsiveness
 
-### Conclusion
-This MERN Chat App project demonstrates comprehensive full‑stack development practices. It integrates secure RESTful API design through Express and MongoDB, real‑time communication via Socket.io, and cloud-based image management for profile pictures through Cloudinary. The project not only fulfills immediate messaging and profile management needs but also lays a scalable foundation for future enhancements. Employers reviewing this code will recognize the careful attention paid to modern development practices, user authentication, cloud integration, and real‑time functionality.
+
+
 
